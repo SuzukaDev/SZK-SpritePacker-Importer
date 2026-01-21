@@ -5,3 +5,9 @@ The generated scene reproduces the original Krita (.kra) document’s hierarchy 
 
 
 <video src="szk-spritepacker-tutorial-no-audio.mp4" width="320" height="240" controls></video>
+
+
+
+
+https://github.com/user-attachments/assets/73919716-9a83-486d-9ec2-73005e96e8b1
+
