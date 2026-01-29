@@ -18,26 +18,30 @@ extends Node2D
 			var json_path = sprite_sheet.resource_path.get_basename()+".json"
 			json_file = load(json_path)
 
+
+# INFO icon visualizer https://godotengine.github.io/editor-icons/
 ## Press to build the sceene from the a SpriteSheet + .JSON file
-@export var generate : bool:
-	set(value):
-		#if not value:
-			#return
-		
-		#generate = value
-		
-		if not value:
-			return
-		generate = false
-		
-		if json_file == null:
-			#var sprite_sheet_dir = sprite_sheet.resource_path.get_base_dir()
-			var json_dir = sprite_sheet.resource_path.get_basename()+".json"
-			json_file = load(json_dir)
-		delete_all_children()
-		#create_group_nodes() # ESTO NO!!!
-		create_sprites_from_spritesheet()
-		center_groups()
+@export_tool_button("Generate", "Environment") var generate_action = generate_scene
+
+#@export var generate : bool
+func generate_scene():
+	##if not value:
+		##return
+	#
+	##generate = value
+	#
+	#if not value:
+		#return
+	#generate = false
+	
+	if json_file == null:
+		#var sprite_sheet_dir = sprite_sheet.resource_path.get_base_dir()
+		var json_dir = sprite_sheet.resource_path.get_basename()+".json"
+		json_file = load(json_dir)
+	delete_all_children()
+	#create_group_nodes() # ESTO NO!!!
+	create_sprites_from_spritesheet()
+	center_groups()
 
 
 func center_groups():
