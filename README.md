@@ -39,3 +39,8 @@ https://github.com/user-attachments/assets/a3fb25e7-a303-48a9-9075-d1db1b7ba7b3
 https://github.com/user-attachments/assets/3cdd4420-8181-42a0-a740-98c1e8a342f1
 
 
+
+
+
+[SZK Pixel Art Suite (Gumroad)](https://orb91.gumroad.com/l/szk-krita-pixel-art-suite)
+
