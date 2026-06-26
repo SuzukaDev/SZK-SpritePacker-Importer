@@ -25,7 +25,7 @@ The generated scene reproduces the original Krita (.kra) document’s hierarchy 
 https://github.com/user-attachments/assets/73919716-9a83-486d-9ec2-73005e96e8b1
 
 
-# Art made with it (Krita+Godot)
+# Art made with it (Krita + SZK Pixel Art Suite + Godot)
 
 
 
